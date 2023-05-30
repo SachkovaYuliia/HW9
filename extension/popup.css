@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 500px;
+    background-color: beige;
+}
+h1{
+    text-align: center;
+}
+.popupHeader{
+    color: #08c;
+    padding: 20px;
+}
+.popupContent{
+    text-align: center;
+    padding: 20px 10px;
+    font-size: 20px;
+    color: blue;
+}
+.popupContent img{
+    margin-top: 10px;
+}
+.popupFooter{
+    color: #08c;
+    padding: 20px;
+    text-align: center;
+}
+#send {
+    background-color: #08c;
+    color: beige;
+    text-transform: uppercase;
+    padding: 10px;
+    font-size: 20px;
+    border: 1px solid #08c;
+    border-radius: 3px;
+    width: fit-content;
+    cursor: pointer;
+}
